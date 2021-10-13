@@ -1,11 +1,21 @@
-# Process
-npm install
+# Node basic template
 
-# Server
-npm run dev
+Template for node projects with modern JavaScript (ES10).
 
-# Create dist folder
-npm run build
+---
+## Install
 
-# Check for update in dependencies
-npm update-d
+    $ git clone https://github.com/jscalderon65/node-modern-js-template
+    $ cd node-modern-js-template
+    $ npm install
+
+## Running the project
+
+    $ npm run dev
+
+## Create dist folder
+    $ npm run build
+
+## Check for updates in dependencies
+
+    $ npm run udp

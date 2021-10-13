@@ -1,3 +1,6 @@
-import '@babel/polyfill';
-const test = "test";
-console.log(test);
+import "@babel/polyfill";
+import app from "./server.js";
+
+app.listen(app.get("port"), () => {
+  console.log("server on port: ", app.get("port"));
+});
